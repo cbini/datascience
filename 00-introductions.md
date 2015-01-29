@@ -9,5 +9,5 @@ I build and maintain the data warehouse for a network of 8 charter schools in Ne
 ## Why I'm here
 To learn to use Python to broaden the range of analyses we can do.  Currently, we work mainly in SQL and create dashboards in Tableau and Excel.
 
-## This is kick ass.  You should look at this:
+## This is kick ass.  Check this out, bruh:
 http://data.ci.newark.nj.us/base/maps/snowplows.html - data viz of snow plow routes through Newark, NJ.
