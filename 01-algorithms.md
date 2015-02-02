@@ -2,7 +2,7 @@
 
 *A technique for predicting a continuous numerical outcome.*
 
-A regression takes a set of dependent variables that are associated with an independent variable of known value and creates a predictive model based on the data.  An effective regression model will closely predict the target value using any valid input values.
+A regression takes a dataset containing a number of dependent variables that are associated with an independent variable of known value and creates a predictive model based on the data.  More effective regression models will predict the target value with lower error, given any valid inputs.
 
 **Examples**
 - A student's end-of-year average based on their attendance.
