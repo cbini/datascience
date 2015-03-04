@@ -55,3 +55,4 @@ target/
 
 # OS X directory data
 .DS_Store
+twitterconfig.py
