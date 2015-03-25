@@ -1,0 +1,7 @@
+digraph Tree {
+0 [label="Calories <= 124.0000\ngini = 0.42\nsamples = 20", shape="box"] ;
+1 [label="gini = 0.0000\nsamples = 6\nvalue = [ 0.  6.]", shape="box"] ;
+0 -> 1 ;
+2 [label="gini = 0.0000\nsamples = 14\nvalue = [ 14.   0.]", shape="box"] ;
+0 -> 2 ;
+}

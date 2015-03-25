@@ -2,6 +2,7 @@
 
 Use this notetaker for each algorithm so you can keep track of the important information for each algorithm
 
+
 ## logistic regression
 
 > What data problem does it solve?
@@ -65,3 +66,62 @@ sklearn includes alpha parameter, so we assume some type of regularization
 several "versions":
     multinomial: counting (how often does this feature show up?)
     bernoulli: presence (does this feature show up?)
+
+
+## Support Vector Machines
+
+> What data problem does it solve?
+
+supervised, can classify or regress
+discriminitive, uses a decision line to split data into definitive classes
+
+> How do we evaluate performance?
+
+
+
+> What is the output?
+
+hyperplane, a vector that divides the data
+
+> What is interpretable of the algorithm?
+
+
+
+> How is it prone to overfitting?
+
+relies on specific data points in the training set to build the model
+
+> How is it customizable?
+
+kernels - designates linear or non-linear hyperplanes
+C parameter - error-tolerance of hyperplane, impacts margin
+alpha parameter - scalar multiplier
+
+
+## K Nearest Neighbors (KNN)
+
+> What data problem does it solve?
+
+supervised
+generative, gets a feel for what the classes *should* be based on the data
+solves for class using distance and similarity
+
+> How do we evaluate performance?
+
+
+
+> What is the output?
+
+
+
+> What is interpretable of the algorithm?
+
+
+
+> How is it prone to overfitting?
+
+
+
+> How is it customizable?
+
+*k* - the number of nearest neighbors to find
