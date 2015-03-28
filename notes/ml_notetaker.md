@@ -2,7 +2,6 @@
 
 Use this notetaker for each algorithm so you can keep track of the important information for each algorithm
 
-
 ## logistic regression
 
 > What data problem does it solve?
@@ -103,25 +102,57 @@ alpha parameter - scalar multiplier
 > What data problem does it solve?
 
 supervised
+classification
 generative, gets a feel for what the classes *should* be based on the data
 solves for class using distance and similarity
 
 > How do we evaluate performance?
 
-
+regression - mean squared error
+classification - confusion matrix
 
 > What is the output?
 
-
+class labels - generative, solved using all data and their labels first
 
 > What is interpretable of the algorithm?
 
-
+nothing like a coefficient
 
 > How is it prone to overfitting?
 
-
+if the threshold (k) for each group isn't reasonable
 
 > How is it customizable?
 
 *k* - the number of nearest neighbors to find
+distance metric can be changed - Minkowski (continuous) and Jaccard (ranked/categorical)
+
+
+## K Nearest Neighbors (KNN)
+
+> What data problem does it solve?
+
+unsupervised
+clustering
+
+> How do we evaluate performance?
+
+"Elbow rule" - plot k against % of variance explained, left of "elbow" is better (majority of variance explained with room for error)
+rule sets - trees
+
+> What is the output?
+
+k clusters (every observation assigned to a cluster)
+
+> What is interpretable of the algorithm?
+
+variance of the sum of squares
+
+> How is it prone to overfitting?
+
+Rule of thumb: k clustes should be < o/2
+feature scaling - late variances can account for the majority of the cluster
+
+> How is it customizable?
+
